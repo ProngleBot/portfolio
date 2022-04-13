@@ -40,7 +40,7 @@ h1{
 }
 .jumbotron{
 
-    background-color:#1c1c1c91;
+    background-color:#363636AA;
     text-align:center;
     color:white;
     padding-top:0;
@@ -79,6 +79,12 @@ ul{
     margin: 0 auto;
     padding:3%;
 }
+.img {
+    transition: transform .2s; /* Animation */
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+}
 .img-responsive-pfp {
     transition: transform .2s; /* Animation */
     width: 200px;
@@ -94,6 +100,7 @@ ul{
 .img-responsive:hover {
     transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
 .active{
     background-color:grey;
 }
