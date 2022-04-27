@@ -11,7 +11,7 @@
 <body>
   <!-- This is the navbar-->
   <div>
-    <ul class="nav top justify-content-center">
+    <ul class="nav navbar justify-content-center">
       <li class="nav-item active" id="nav-home">
         <h6 class = "nav-link">Home</h6>
       </li>
@@ -24,6 +24,7 @@
       <li class = "nav-item" id="nav-blog">
         <h6 class="nav-link">Blog</h6>
       </li>
+      
     </ul>
   </div>
 
@@ -40,7 +41,7 @@
               <img src="./images/instagram.png" class = "img-responsive" style="height: 50%; width:50%;">
               <p class="card-text">Check out my instagram</p>
 
-              <a href = "https://www.instagram.com/ProngleBot"><h4> bigpapaasg </h4></a>
+              <a href = "https://www.instagram.com/ProngleBot"><h4> ProngleBot </h4></a>
             </div>
           </div>
         </div>
@@ -71,64 +72,96 @@
   <div class="jumbotron container" id = "projectData">
     <h1>Here are my projects!</h1>
     <hr>
+    
     <div class="row">
-    <div class="col-sm-6">
-      <div class="card" style="width: 18rem; display: inline-block;" id="instagram">
-        <img class="card-img-top img-responsive" src="./images/oasis.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Oasis</h5>
-          <h6 class="card-text"> This is Oasis, a discord bot made in python. <br> <a href = "https://discord.gg/38SyGG">Check him out here</a></h6>
+      <div class="col-sm-4" id="oasis">
+        <div class="card" style="width: 18rem; display: inline-block;" id="instagram">
+          <img class="card-img-top img-responsive" src="./images/oasis.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Oasis</h5>
+            <h6 class="card-text"> This is Oasis, a discord bot made in python. <br> <br>
+              <button class="btn btn-danger">Check him out here</button></h6>
+          </div>
         </div>
       </div>
-      </div>
-    <div class="col-sm-6">
+      
+    <div class="col-sm-4" id="thisWebsite">
       <div class="card text-center" style="width: 18rem;  display: inline-block;">
         <div class="card-body">
-          <img src="https://discordapp.com/assets/9be66884222f362fd161718c45fd9663.svg" class="img-responsive"style="width: 80%; height: 60%; border: 4px solid grey; border-radius: 3%;" alt="😳" id="nekoEasterEgg"/>
+          <img class="card-img-top img-responsive" src="./images/WebsiteScreenshot.png"> <br>
+          <h6 style =  "padding:18px;"><br>This website itself, It's a SPA built with the power of HTML, CSS, Javascript and Jquery, checkout my github for source code on it.</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4" id="nekoChanger">
+      <div class="card text-center" style="width: 18rem;  display: inline-block;">
+        <div class="card-body">
+          <img src="./images/catbye.gif" class="img-responsive"style="width: 80%; height: 60%; border: 4px solid grey; border-radius: 3%;" alt="😳" id="nekoEasterEgg"/>
           <h6 style =  "padding:18px;"><br>This is a simple application that does api requests in jquery</h6>
           <button class="btn btn-danger" id="nekoChanger" style="border: 10% solid black;">Click me to change picture</button>
         </div>
       </div>
     </div>
+
+    <div class="col-sm-12" id="detailedOasis">
+      <div class="card text-center" style="width:60% word-wrap: break-word;">
+        <div class="card-body">
+          <p align="center">
+            <h1>This is oasis</h1>
+            <hr>
+            <h5>😅 Under Construction 🙏</h5>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
   </div>
+
 <!-- Welcome Page -->
 <div class="jumbotron container" id="welcomeData">
   <br>
     <img class = "img-responsive-pfp" src="./images/myface.png" id = "myFace"> 
     <br><br>
-      <h3>I'm Shreehari Bharadwaj I'm a Full stack web developer 😎</h3>
-      <p>I specialize in MERN stack and Django </p>
+      <h3>I'm Shreehari Bharadwaj I'm a web developer 😎</h3>
+      
     <hr class="my-4">
       <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
         <h2>My Skills</h2>
         <hr class="my-4">
         <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
-         HTML CSS Javascript PHP <br> Python Django
+         HTML, CSS, Javascript, JQuery <br> Python.
         </div>
       <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
-          DTP <br> MS OFFICE <br> Computer Fundamentals
+          DTP, <br> MS OFFICE, <br> Computer Fundamentals.
       </div>
       <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
-          Blender Krita Photoshop
+          Blender, Krita, Photoshop.
       </div>
-      <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
-        MongoDB Express.js Vue.js Node.js
-      </div>
+      <!-- <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
+        MongoDB, Express.js, Vue.js, Node.js.
+      </div> -->
    <hr>
   </div>
   <br>
-  <div class="card" style="display: inline-flex; padding:4%;" id="instagram">
+  <div class="card" style=" display: inline-flex; padding:4%;" id="instagram">
     <a href="./images/resume.pdf" download="resume.pdf">Download my resume</a>
+  </div>
+  <hr>
+  <div class="card" style="display: inline-flex; padding:4%; width: 50%;" id="instagram">
+    <h2>About me</h2>
+    <hr>
+    Hello, I'm Shreehari Bharadwaj P, I've completed my 12th grade from NIOS. I like cooking and playing guitar, I want to be a full stack web developer so i'm currently studying for that :). 
   </div>
   </div>
 <!-- Blog Page-->
   <div class = "jumbotron container" id ="blogData">
     <h1 style="padding-bottom:0%;">Hello, world!</h1>
-    <sub style="padding:0%;">I'll  post  what i'll be and am working on here.</sub>
+    <sub style="padding:0%;">I'll post what i'll be and am working on here.</sub>
     <hr>
   </div>
  <script>
+  $("#detailedOasis").hide();
   $("#projectData").hide();
   $("#contactData").hide();
   $("#blogData").hide();
@@ -178,6 +211,12 @@
     $.getJSON("https://nekos.life/api/v2/img/meow",function(data){
       $("#nekoEasterEgg").attr("src",data.url);
     })
+  })
+  $("#oasis").click(() => {
+    $("#nekoChanger").fadeOut();
+    $("#oasis").fadeOut();
+    $("#thisWebsite").fadeOut();
+    $("#detailedOasis").fadeIn();
   })
   </script>
 </body>
